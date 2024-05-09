@@ -1,0 +1,113 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuInventario.uss?fileID=7433441132597879392&amp;guid=7573a1ba64b342a4f97d30c487d1ce8a&amp;type=3#MenuInventario" />
+    <ui:VisualElement name="Todo" style="width: 100%; height: 100%; background-color: rgb(36, 35, 35); flex-direction: row;">
+        <ui:VisualElement name="AreaInventario" style="height: 100%; width: 35%;">
+            <ui:VisualElement name="Background" style="width: 98%; height: 98%; background-color: rgb(77, 77, 77); border-top-left-radius: 19px; border-bottom-left-radius: 19px; border-top-right-radius: 19px; border-bottom-right-radius: 19px; border-left-width: 6px; border-right-width: 6px; border-top-width: 6px; border-bottom-width: 6px; border-left-color: rgb(43, 43, 43); border-right-color: rgb(43, 43, 43); border-top-color: rgb(43, 43, 43); border-bottom-color: rgb(43, 43, 43); flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: space-around; flex-grow: initial;">
+                <ui:VisualElement name="BackgroundInventario" style="flex-wrap: wrap; flex-direction: row; width: 100%; height: 95%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="AreaPersonaje" style="height: 100%; width: 35%;">
+            <ui:VisualElement name="Background" style="width: 98%; height: 98%; background-color: rgb(65, 65, 65); border-top-left-radius: 19px; border-bottom-left-radius: 19px; border-top-right-radius: 19px; border-bottom-right-radius: 19px; border-left-width: 6px; border-right-width: 6px; border-top-width: 6px; border-bottom-width: 6px; border-left-color: rgb(43, 43, 43); border-right-color: rgb(43, 43, 43); border-top-color: rgb(43, 43, 43); border-bottom-color: rgb(43, 43, 43); align-items: center;">
+                <ui:VisualElement name="SiluetaBackground" style="background-image: url(&apos;project://database/Assets/UI/Images/Silueta.png?fileID=2800000&amp;guid=cecb8d20fec539b48a4be2248240d6b7&amp;type=3#Silueta&apos;); width: 75%; height: 100%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Cabeza" style="position: absolute; height: 110px; width: 110px; top: 8px; left: 90px; background-color: rgb(41, 41, 41); border-left-color: rgb(29, 29, 29); border-right-color: rgb(29, 29, 29); border-top-color: rgb(29, 29, 29); border-bottom-color: rgb(29, 29, 29); border-left-width: 4px; border-right-width: 4px; border-top-width: 4px; border-bottom-width: 4px; border-top-left-radius: 12px; border-bottom-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px;">
+                <ui:VisualElement name="CabezaImagen" style="width: 100%; height: 100%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Torso" style="position: absolute; height: 110px; width: 110px; top: 183px; left: 148px; background-color: rgb(41, 41, 41); border-left-color: rgb(29, 29, 29); border-right-color: rgb(29, 29, 29); border-top-color: rgb(29, 29, 29); border-bottom-color: rgb(29, 29, 29); border-left-width: 4px; border-right-width: 4px; border-top-width: 4px; border-bottom-width: 4px; border-top-left-radius: 12px; border-bottom-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px;">
+                <ui:VisualElement name="TorsoImagen" style="width: 100%; height: 100%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ManoDer" style="position: absolute; height: 110px; width: 110px; top: 281px; left: 10px; background-color: rgb(41, 41, 41); border-left-color: rgb(29, 29, 29); border-right-color: rgb(29, 29, 29); border-top-color: rgb(29, 29, 29); border-bottom-color: rgb(29, 29, 29); border-left-width: 4px; border-right-width: 4px; border-top-width: 4px; border-bottom-width: 4px; border-top-left-radius: 12px; border-bottom-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px;">
+                <ui:VisualElement name="ManoDerImagen" style="width: 100%; height: 100%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ManoIz" style="position: absolute; height: 110px; width: 110px; top: 283px; left: 289px; background-color: rgb(41, 41, 41); border-left-color: rgb(29, 29, 29); border-right-color: rgb(29, 29, 29); border-top-color: rgb(29, 29, 29); border-bottom-color: rgb(29, 29, 29); border-left-width: 4px; border-right-width: 4px; border-top-width: 4px; border-bottom-width: 4px; border-top-left-radius: 12px; border-bottom-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px;">
+                <ui:VisualElement name="ManoIzImagen" style="width: 100%; height: 100%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Piernas" style="position: absolute; height: 110px; width: 110px; top: 409px; left: 145px; background-color: rgb(41, 41, 41); border-left-color: rgb(29, 29, 29); border-right-color: rgb(29, 29, 29); border-top-color: rgb(29, 29, 29); border-bottom-color: rgb(29, 29, 29); border-left-width: 4px; border-right-width: 4px; border-top-width: 4px; border-bottom-width: 4px; border-top-left-radius: 12px; border-bottom-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px;">
+                <ui:VisualElement name="PiernasImagen" style="width: 100%; height: 100%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Pies" style="position: absolute; height: 110px; width: 110px; top: 585px; left: 263px; background-color: rgb(41, 41, 41); border-left-color: rgb(29, 29, 29); border-right-color: rgb(29, 29, 29); border-top-color: rgb(29, 29, 29); border-bottom-color: rgb(29, 29, 29); border-left-width: 4px; border-right-width: 4px; border-top-width: 4px; border-bottom-width: 4px; border-top-left-radius: 12px; border-bottom-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px;">
+                <ui:VisualElement name="PiesImagen" style="width: 100%; height: 100%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="AreaStats" style="height: 100%; width: 30%; align-items: center; justify-content: center;">
+            <ui:VisualElement name="Background" style="width: 98%; height: 98%; background-color: rgb(77, 77, 77); border-top-left-radius: 19px; border-bottom-left-radius: 19px; border-top-right-radius: 19px; border-bottom-right-radius: 19px; border-left-width: 6px; border-right-width: 6px; border-top-width: 6px; border-bottom-width: 6px; border-left-color: rgb(43, 43, 43); border-right-color: rgb(43, 43, 43); border-top-color: rgb(43, 43, 43); border-bottom-color: rgb(43, 43, 43);">
+                <ui:VisualElement name="AreaBarras" style="width: 100%; height: 25%; flex-direction: row; align-items: center; background-color: rgb(67, 67, 67); border-top-left-radius: 11px; border-bottom-left-radius: 11px; border-top-right-radius: 11px; border-bottom-right-radius: 11px;">
+                    <ui:VisualElement name="ParteTextos" style="width: 33%; height: 100%; align-items: center; justify-content: center;">
+                        <ui:Label text="Vida&#10;Maná&#10;Stamina" display-tooltip-when-elided="true" name="VidaManaStamina" style="-unity-font-style: bold; color: rgb(0, 0, 0); font-size: 25px; -unity-text-align: upper-right;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ParteBarras" style="width: 65%; height: 60%; align-items: flex-start; justify-content: space-around;">
+                        <ui:VisualElement name="BarraVida" style="width: 220px; height: 15%; align-items: flex-start; background-color: rgb(197, 0, 0);" />
+                        <ui:VisualElement name="BarraMana" style="width: 100%; height: 15%; align-items: flex-start; background-color: rgb(0, 31, 197);" />
+                        <ui:VisualElement name="BarraStamina" style="width: 100%; height: 15%; align-items: flex-start; background-color: rgb(2, 125, 0);" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="AreaNiveles" style="width: 100%; height: 50%; align-items: center; justify-content: center;">
+                    <ui:VisualElement name="Background" style="width: 98%; height: 80%; background-color: rgb(65, 65, 65); border-top-left-radius: 19px; border-bottom-left-radius: 19px; border-top-right-radius: 19px; border-bottom-right-radius: 19px; border-left-width: 6px; border-right-width: 6px; border-top-width: 6px; border-bottom-width: 6px; border-left-color: rgb(70, 70, 70); border-right-color: rgb(70, 70, 70); border-top-color: rgb(70, 70, 70); border-bottom-color: rgb(70, 70, 70);">
+                        <ui:VisualElement name="Nivel" style="width: 100%; height: 20%; flex-direction: row; align-items: center; justify-content: center; background-color: rgba(0, 0, 0, 0.14); border-top-left-radius: 13px; border-bottom-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px;">
+                            <ui:VisualElement name="MitadTexto" style="width: 40%; height: 95%;">
+                                <ui:Label text="Nivel:" display-tooltip-when-elided="true" name="NivelText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 20px; -unity-text-align: upper-center;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="MitadNumero" style="width: 15%; height: 95%;">
+                                <ui:Label text="49" display-tooltip-when-elided="true" name="NumNivelText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 20px; -unity-text-align: upper-left;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="MitadExtraTexto" style="width: 40%; height: 95%;">
+                                <ui:Label text="Extra:" display-tooltip-when-elided="true" name="ExtraText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 20px; -unity-text-align: upper-center;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="MitadExtraNumero" style="width: 15%; height: 95%;">
+                                <ui:Label text="49" display-tooltip-when-elided="true" name="NumExtraText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 20px; -unity-text-align: upper-left;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Stats" style="width: 100%; height: 70%; flex-direction: row; align-items: flex-start; justify-content: center;">
+                            <ui:VisualElement name="MitadTexto" style="width: 48%; height: 95%;">
+                                <ui:Label text="Vigor:" display-tooltip-when-elided="true" name="VigorText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px;" />
+                                <ui:Label text="Inteligencia:" display-tooltip-when-elided="true" name="IntText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px;" />
+                                <ui:Label text="Resistencia:" display-tooltip-when-elided="true" name="ResText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px;" />
+                                <ui:Label text="Fuerza:" display-tooltip-when-elided="true" name="FuerText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px;" />
+                                <ui:Label text="Destreza:" display-tooltip-when-elided="true" name="DesText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px;" />
+                                <ui:Label text="Suerte:" display-tooltip-when-elided="true" name="SuerText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="MitadNumero" style="width: 48%; height: 95%;">
+                                <ui:Label text="49" display-tooltip-when-elided="true" name="NumVigorText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px; -unity-text-align: upper-right;" />
+                                <ui:Label text="49" display-tooltip-when-elided="true" name="NumIntText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px; -unity-text-align: upper-right;" />
+                                <ui:Label text="49" display-tooltip-when-elided="true" name="NumResText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px; -unity-text-align: upper-right;" />
+                                <ui:Label text="49" display-tooltip-when-elided="true" name="NumFuerText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px; -unity-text-align: upper-right;" />
+                                <ui:Label text="49" display-tooltip-when-elided="true" name="NumDesText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px; -unity-text-align: upper-right;" />
+                                <ui:Label text="49" display-tooltip-when-elided="true" name="NumSuerText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px; -unity-text-align: upper-right;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="AreaOtrosStats" style="width: 100%; height: 25%; align-items: center; justify-content: center; flex-direction: row;">
+                    <ui:VisualElement name="MitadTexto" style="width: 48%; height: 95%; flex-direction: column-reverse; align-items: flex-start; justify-content: flex-start;">
+                        <ui:Label text="Probabilidad de objetos:" display-tooltip-when-elided="true" name="ObjetsText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px; -unity-text-align: upper-left;" />
+                        <ui:Label text="Peso:" display-tooltip-when-elided="true" name="PesoText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px; -unity-text-align: upper-left;" />
+                        <ui:Label text="Defensa:" display-tooltip-when-elided="true" name="DefText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px; -unity-text-align: upper-right;" />
+                        <ui:Label text="Ataque mágico:" display-tooltip-when-elided="true" name="AtMagText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px; -unity-text-align: upper-right;" />
+                        <ui:Label text="Ataque:" display-tooltip-when-elided="true" name="AtText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px; -unity-text-align: upper-right;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="MitadNumero" style="width: 48%; height: 95%; flex-direction: column-reverse; align-items: flex-end; justify-content: flex-start;">
+                        <ui:Label text="49" display-tooltip-when-elided="true" name="NumObjetsText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px; -unity-text-align: upper-right;" />
+                        <ui:Label text="49" display-tooltip-when-elided="true" name="NumPesoText" class="NoSobrePeso" style="-unity-font-style: bold; font-size: 18px; -unity-text-align: upper-right;" />
+                        <ui:Label text="49" display-tooltip-when-elided="true" name="NumDefText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px; -unity-text-align: upper-right;" />
+                        <ui:Label text="49" display-tooltip-when-elided="true" name="NumAtMagText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px; -unity-text-align: upper-right;" />
+                        <ui:Label text="49" display-tooltip-when-elided="true" name="NumAtText" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 18px; -unity-text-align: upper-right;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Buttons" style="position: absolute; width: 30%; height: 28%; top: 279px; left: 176px; flex-direction: row; flex-wrap: wrap;">
+                <ui:Button text="-" display-tooltip-when-elided="true" name="LessVig" style="width: 40%; height: 15%; background-color: rgb(161, 0, 0); font-size: 33px; -unity-font-style: bold; -unity-text-align: middle-center; color: rgb(0, 0, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+                <ui:Button text="+" display-tooltip-when-elided="true" name="PlusVig" style="width: 40%; height: 15%; background-color: rgb(56, 161, 0); font-size: 33px; -unity-font-style: bold; -unity-text-align: middle-center; color: rgb(0, 0, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+                <ui:Button text="-" display-tooltip-when-elided="true" name="LessInt" style="width: 40%; height: 15%; background-color: rgb(161, 0, 0); font-size: 33px; -unity-font-style: bold; -unity-text-align: middle-center; color: rgb(0, 0, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+                <ui:Button text="+" display-tooltip-when-elided="true" name="PlusInt" style="width: 40%; height: 15%; background-color: rgb(56, 161, 0); font-size: 33px; -unity-font-style: bold; -unity-text-align: middle-center; color: rgb(0, 0, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+                <ui:Button text="-" display-tooltip-when-elided="true" name="LessRes" style="width: 40%; height: 16%; background-color: rgb(161, 0, 0); font-size: 33px; -unity-font-style: bold; -unity-text-align: middle-center; color: rgb(0, 0, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+                <ui:Button text="+" display-tooltip-when-elided="true" name="PlusRes" style="width: 40%; height: 16%; background-color: rgb(56, 161, 0); font-size: 33px; -unity-font-style: bold; -unity-text-align: middle-center; color: rgb(0, 0, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+                <ui:Button text="-" display-tooltip-when-elided="true" name="LessFue" style="width: 40%; height: 15%; background-color: rgb(161, 0, 0); font-size: 33px; -unity-font-style: bold; -unity-text-align: middle-center; color: rgb(0, 0, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+                <ui:Button text="+" display-tooltip-when-elided="true" name="PlusFue" style="width: 40%; height: 15%; background-color: rgb(56, 161, 0); font-size: 33px; -unity-font-style: bold; -unity-text-align: middle-center; color: rgb(0, 0, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+                <ui:Button text="-" display-tooltip-when-elided="true" name="LessDes" style="width: 40%; height: 16%; background-color: rgb(161, 0, 0); font-size: 33px; -unity-font-style: bold; -unity-text-align: middle-center; color: rgb(0, 0, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+                <ui:Button text="+" display-tooltip-when-elided="true" name="PlusDes" style="width: 40%; height: 16%; background-color: rgb(56, 161, 0); font-size: 33px; -unity-font-style: bold; -unity-text-align: middle-center; color: rgb(0, 0, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+                <ui:Button text="-" display-tooltip-when-elided="true" name="LessSue" style="width: 40%; height: 16%; background-color: rgb(161, 0, 0); font-size: 33px; -unity-font-style: bold; -unity-text-align: middle-center; color: rgb(0, 0, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+                <ui:Button text="+" display-tooltip-when-elided="true" name="PlusSue" style="width: 40%; height: 16%; background-color: rgb(56, 161, 0); font-size: 33px; -unity-font-style: bold; -unity-text-align: middle-center; color: rgb(0, 0, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
